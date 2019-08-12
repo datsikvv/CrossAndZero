@@ -1,0 +1,44 @@
+body {
+	background-color: yellow;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	
+}
+
+
+#winner {
+    color: blue;
+    font-size: 60px;
+}
+
+.wrap {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapfields {
+	height: 300px;
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.field {
+	height: 100px;
+	width: 100px;
+	border: 2px solid blue;
+	user-select: none;
+	
+}
+
+.btn {
+	margin-top: 50px;
+}
